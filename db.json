@@ -1,0 +1,33 @@
+{
+  "ids": {
+    "user": 5,
+    "accessToken": 6,
+    "userCredential": 1,
+    "userIdentity": 2,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1
+  },
+  "models": {
+    "user": {
+      "1": "{\"username\":\"andrea\",\"emailVerified\":true,\"password\":\"$2a$10$62vf6glT1OtJccu4kaDmkOwzXzEMJgwURkY8XS7rFIlNlsa5mqpAq\",\"email\":\"cata86@gmail.com\",\"id\":1}",
+      "2": "{\"username\":\"andrea2\",\"password\":\"$2a$10$5NoFTUUb2c6HdXzk7FqAb.tsU/GLWWEd07Bhu7kz9LneRs1QfOXQy\",\"email\":\"a.catalano@cineca.it\",\"id\":2}",
+      "3": "{\"username\":\"facebook.10211855995379029\",\"password\":\"$2a$10$.Cj57I0jo.XDbhBQj94BJejjysB38RfJEJYI/omH7HJA2L32LG4aK\",\"email\":\"10211855995379029@loopback.facebook.com\",\"id\":3}",
+      "4": "{\"username\":\"saml.undefined\",\"password\":\"$2a$10$e.86LcMcDOTxV00rK/qJfuOMeXQqPxRR0xjdo.diiSnnknPHhv1Ne\",\"email\":\"undefined@loopback.saml.com\",\"id\":4}"
+    },
+    "accessToken": {
+      "cVs8am6tjPE7Y9l8OnGNOvSVTQB4HoMu83ynyObmjvhLf0ABYFvSkFQlNW8wpOpN": "{\"id\":\"cVs8am6tjPE7Y9l8OnGNOvSVTQB4HoMu83ynyObmjvhLf0ABYFvSkFQlNW8wpOpN\",\"ttl\":1209600,\"created\":\"2017-01-25T14:40:57.509Z\",\"userId\":3}",
+      "hENMiskQ9moCqecr3ILp4FUi7XGm9nUYpDAd3Np7GutD7Gj27ZSZ9461YKPf7mtF": "{\"id\":\"hENMiskQ9moCqecr3ILp4FUi7XGm9nUYpDAd3Np7GutD7Gj27ZSZ9461YKPf7mtF\",\"ttl\":1209600,\"created\":\"2017-01-25T14:42:40.421Z\",\"userId\":3}",
+      "p61fVUicGFI3eSzARn4gKsj2fjzBrlPgKqPDwemLjyHv9HSYsRr7PgCgJ6TEg4b2": "{\"id\":\"p61fVUicGFI3eSzARn4gKsj2fjzBrlPgKqPDwemLjyHv9HSYsRr7PgCgJ6TEg4b2\",\"ttl\":1209600,\"created\":\"2017-01-25T15:00:47.023Z\",\"userId\":3}",
+      "FkoyQxjvv7Z8CTyCYPhcMN1ELJlP3lhwpXnsUJ6v0yIgu2fZj1EXS6A3E9Hg3Faf": "{\"id\":\"FkoyQxjvv7Z8CTyCYPhcMN1ELJlP3lhwpXnsUJ6v0yIgu2fZj1EXS6A3E9Hg3Faf\",\"ttl\":1209600,\"created\":\"2017-01-25T15:13:31.112Z\",\"userId\":3}",
+      "SRApEZS9KuecOPUWh5cN0JXxAu5exAPC40lDIEbdR6QHy4w9PgGz8Km1nmogAhLE": "{\"id\":\"SRApEZS9KuecOPUWh5cN0JXxAu5exAPC40lDIEbdR6QHy4w9PgGz8Km1nmogAhLE\",\"ttl\":1209600,\"created\":\"2017-01-25T22:02:55.171Z\",\"userId\":4}"
+    },
+    "userCredential": {},
+    "userIdentity": {
+      "1": "{\"provider\":\"facebook\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"10211855995379029\",\"profile\":{\"id\":\"10211855995379029\",\"name\":{\"familyName\":\"Catalano\",\"givenName\":\"Andrea\"},\"gender\":\"male\",\"profileUrl\":\"https://www.facebook.com/app_scoped_user_id/10211855995379029/\",\"emails\":[{\"value\":\"cata86@gmail.com\"}],\"provider\":\"facebook\",\"_raw\":\"{\\\"gender\\\":\\\"male\\\",\\\"link\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\\/app_scoped_user_id\\\\/10211855995379029\\\\/\\\",\\\"locale\\\":\\\"it_IT\\\",\\\"last_name\\\":\\\"Catalano\\\",\\\"first_name\\\":\\\"Andrea\\\",\\\"timezone\\\":0,\\\"verified\\\":true,\\\"email\\\":\\\"cata86\\\\u0040gmail.com\\\",\\\"updated_time\\\":\\\"2015-02-03T10:21:17+0000\\\",\\\"id\\\":\\\"10211855995379029\\\"}\",\"_json\":{\"gender\":\"male\",\"link\":\"https://www.facebook.com/app_scoped_user_id/10211855995379029/\",\"locale\":\"it_IT\",\"last_name\":\"Catalano\",\"first_name\":\"Andrea\",\"timezone\":0,\"verified\":true,\"email\":\"cata86@gmail.com\",\"updated_time\":\"2015-02-03T10:21:17+0000\",\"id\":\"10211855995379029\"}},\"credentials\":{\"accessToken\":\"EAAFTNu01VywBAMcEBGQNgue5gh0qw9lry1mZAsDgXTDU7UREY2ftAxxclZBIF8qEfu6xWzfVrx7WZCWTm6lWW5eXEqRZARnAJWjRZAOt7ZBLr3pZAdCQlQkL1k4eGMP1VaUQnZBz1VFfNNI5CKwJkNxUtHZCRfX1VZAAbAZBvuJuwRiorMTLLKBhb0T\"},\"created\":\"2017-01-25T14:40:57.504Z\",\"modified\":\"2017-01-25T15:13:31.094Z\",\"userId\":3,\"id\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {}
+  }
+}
