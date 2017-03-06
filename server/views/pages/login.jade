@@ -4,18 +4,33 @@ block content
   .row
     .col-md-12
       h1 Login:
+        span=host
+      h1
       ul.list-inline.list-unstyled
         li
-          a.btn.btn-primary(href='/local') Login with local account
+          a.btn.btn-primary(href='http://local.up.it:3000/local') Login with local account
         li
           a.btn.btn-primary(href="/auth/facebook") Login with Facebook
         li
           a.btn.btn-primary(href="/auth/google") Login with Google
         li
-          a.btn.btn-primary(href="/auth/twitter") Login with Twitter
+          a.btn.btn-primary(href="http://ldap.up.it:3000/ldap") Login with Ldap
         li
-          p=host
+          a.btn.btn-primary(href="http://idp3.up.it:3000/auth/idp3") Login with Shibboleth IDP3
+        li
+          a.btn.btn-primary(href="http://unito.up.it:3000/auth/unito") Login with Shibboleth UNITO DEV
+        li
       br
+      br
+      .poem 
+          p(style='white-space:pre;')
+            | Ricordati di configurare nel file hosts:
+            | 127.0.0.1  idp3.up.it
+            | 127.0.0.1  local.up.it
+            | 127.0.0.1  ldap.up.it
+            | 127.0.0.1  unito.up.it
+
+
       if (messages.error)
         p
           span(style="color:red")= messages.error

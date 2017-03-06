@@ -9,6 +9,29 @@
     "failureRedirect": "/local",
     "failureFlash": true
   },
+  "ldap": {
+      "provider": "ldap",
+      "authScheme":"ldap",
+      "module": "passport-ldapauth",
+      "usernameField": "username",
+      "passwordField": "password",
+      "authPath": "/auth/ldap",
+      "successRedirect": "/auth/account",
+      "failureRedirect": "/ldap",
+      "failureFlash": true,
+      "session": true,
+      "LdapAttributeForLogin": "uid",
+      "LdapAttributeForUsername": "uid",
+      "LdapAttributeForMail": "mail",
+      "server":{
+        "url": "ldap://siaint10.private.cineca.it:389",
+        "bindDn": "cn=admin,dc=vm-local,dc=com",
+        "bindCredentials": "s3cr3t!",
+        "searchBase": "ou=users,dc=vm-local,dc=com",
+        "searchAttributes": ["cn", "mail", "uid", "givenname"],
+        "searchFilter": "(uid={{username}})"
+      }
+  },
   "facebook-login": {
     "provider": "facebook",
     "module": "passport-facebook",

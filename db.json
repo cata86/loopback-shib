@@ -1,9 +1,9 @@
 {
   "ids": {
-    "user": 5,
-    "accessToken": 6,
+    "user": 11,
+    "accessToken": 15,
     "userCredential": 1,
-    "userIdentity": 2,
+    "userIdentity": 5,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1
@@ -13,18 +13,26 @@
       "1": "{\"username\":\"andrea\",\"emailVerified\":true,\"password\":\"$2a$10$62vf6glT1OtJccu4kaDmkOwzXzEMJgwURkY8XS7rFIlNlsa5mqpAq\",\"email\":\"cata86@gmail.com\",\"id\":1}",
       "2": "{\"username\":\"andrea2\",\"password\":\"$2a$10$5NoFTUUb2c6HdXzk7FqAb.tsU/GLWWEd07Bhu7kz9LneRs1QfOXQy\",\"email\":\"a.catalano@cineca.it\",\"id\":2}",
       "3": "{\"username\":\"facebook.10211855995379029\",\"password\":\"$2a$10$.Cj57I0jo.XDbhBQj94BJejjysB38RfJEJYI/omH7HJA2L32LG4aK\",\"email\":\"10211855995379029@loopback.facebook.com\",\"id\":3}",
-      "4": "{\"username\":\"saml.undefined\",\"password\":\"$2a$10$e.86LcMcDOTxV00rK/qJfuOMeXQqPxRR0xjdo.diiSnnknPHhv1Ne\",\"email\":\"undefined@loopback.saml.com\",\"id\":4}"
+      "7": "{\"username\":\"saml.firma_remota\",\"password\":\"$2a$10$Rii6E9Q9aSGtQXUtbjVwMulLc7Z7YZ1syYVIkC7U19Ee/sZDjgUOG\",\"email\":\"firma_remota@loopback.saml.com\",\"id\":7}",
+      "9": "{\"username\":\"ldap.FIRMA_REMOTA\",\"password\":\"$2a$10$uAjnSEt3lGa2UWFUDrzuYOG7vqUre1Xl36LM0SdNN22/3gTlE08RK\",\"email\":\"univ-int-test@cineca.it\",\"id\":9}",
+      "10": "{\"username\":\"andrea5\",\"password\":\"$2a$10$Fzza1fWEE/qaz36l./E93OswabAUsKoWDrNAgnX0fTUU7kiCc7w7G\",\"email\":\"a.catalano5@cineca.it\",\"emailVerified\":true,\"id\":10}"
     },
     "accessToken": {
       "cVs8am6tjPE7Y9l8OnGNOvSVTQB4HoMu83ynyObmjvhLf0ABYFvSkFQlNW8wpOpN": "{\"id\":\"cVs8am6tjPE7Y9l8OnGNOvSVTQB4HoMu83ynyObmjvhLf0ABYFvSkFQlNW8wpOpN\",\"ttl\":1209600,\"created\":\"2017-01-25T14:40:57.509Z\",\"userId\":3}",
       "hENMiskQ9moCqecr3ILp4FUi7XGm9nUYpDAd3Np7GutD7Gj27ZSZ9461YKPf7mtF": "{\"id\":\"hENMiskQ9moCqecr3ILp4FUi7XGm9nUYpDAd3Np7GutD7Gj27ZSZ9461YKPf7mtF\",\"ttl\":1209600,\"created\":\"2017-01-25T14:42:40.421Z\",\"userId\":3}",
       "p61fVUicGFI3eSzARn4gKsj2fjzBrlPgKqPDwemLjyHv9HSYsRr7PgCgJ6TEg4b2": "{\"id\":\"p61fVUicGFI3eSzARn4gKsj2fjzBrlPgKqPDwemLjyHv9HSYsRr7PgCgJ6TEg4b2\",\"ttl\":1209600,\"created\":\"2017-01-25T15:00:47.023Z\",\"userId\":3}",
-      "FkoyQxjvv7Z8CTyCYPhcMN1ELJlP3lhwpXnsUJ6v0yIgu2fZj1EXS6A3E9Hg3Faf": "{\"id\":\"FkoyQxjvv7Z8CTyCYPhcMN1ELJlP3lhwpXnsUJ6v0yIgu2fZj1EXS6A3E9Hg3Faf\",\"ttl\":1209600,\"created\":\"2017-01-25T15:13:31.112Z\",\"userId\":3}",
-      "SRApEZS9KuecOPUWh5cN0JXxAu5exAPC40lDIEbdR6QHy4w9PgGz8Km1nmogAhLE": "{\"id\":\"SRApEZS9KuecOPUWh5cN0JXxAu5exAPC40lDIEbdR6QHy4w9PgGz8Km1nmogAhLE\",\"ttl\":1209600,\"created\":\"2017-01-25T22:02:55.171Z\",\"userId\":4}"
+      "5aBNYzMsnp7xmtyBfPNJdAtlT02FSVS69GwvkcGnGDrZkQClpRToX3wD5cjbuTcY": "{\"id\":\"5aBNYzMsnp7xmtyBfPNJdAtlT02FSVS69GwvkcGnGDrZkQClpRToX3wD5cjbuTcY\",\"ttl\":1209600,\"created\":\"2017-03-06T10:58:32.720Z\",\"userId\":7}",
+      "oWk7GE6PDVw6A4HaRkxIzdx7yFVMnPH2xdIn5HHfhWtHpytuag7UxMESFt0yeJjC": "{\"id\":\"oWk7GE6PDVw6A4HaRkxIzdx7yFVMnPH2xdIn5HHfhWtHpytuag7UxMESFt0yeJjC\",\"ttl\":1209600,\"created\":\"2017-03-06T10:58:55.212Z\",\"userId\":7}",
+      "ousna3kdPKavPND7AImGeVXtbDJPU2ZPVDfIKpkDb6DK3BhzOp9LAKxpESH1LiNt": "{\"id\":\"ousna3kdPKavPND7AImGeVXtbDJPU2ZPVDfIKpkDb6DK3BhzOp9LAKxpESH1LiNt\",\"ttl\":1209600,\"created\":\"2017-03-06T11:54:21.007Z\",\"userId\":7}",
+      "HGDcR9ZSDf5QepUOHINyZMgSi7hnCR1B4r2vVbPNJXe6YmuzJr3Zr0ZbTttD8GDw": "{\"id\":\"HGDcR9ZSDf5QepUOHINyZMgSi7hnCR1B4r2vVbPNJXe6YmuzJr3Zr0ZbTttD8GDw\",\"ttl\":1209600,\"created\":\"2017-03-06T17:05:45.789Z\",\"userId\":3}",
+      "cVUXfTFxAkWJhv1dblJTE5DCUAHZWCZuOXkTjEGcbJau7WqUYJ3TuSi3jkyxZzXn": "{\"id\":\"cVUXfTFxAkWJhv1dblJTE5DCUAHZWCZuOXkTjEGcbJau7WqUYJ3TuSi3jkyxZzXn\",\"ttl\":1209600,\"created\":\"2017-03-06T17:06:12.870Z\",\"userId\":7}",
+      "zKA4dEPdAmkHUHvyEqJbYB9B9LB4lB0CYKi1EQdEBsClhsUnv5jXmQbAbAsQ19JK": "{\"id\":\"zKA4dEPdAmkHUHvyEqJbYB9B9LB4lB0CYKi1EQdEBsClhsUnv5jXmQbAbAsQ19JK\",\"ttl\":1209600,\"created\":\"2017-03-06T17:06:29.489Z\",\"userId\":9}"
     },
     "userCredential": {},
     "userIdentity": {
-      "1": "{\"provider\":\"facebook\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"10211855995379029\",\"profile\":{\"id\":\"10211855995379029\",\"name\":{\"familyName\":\"Catalano\",\"givenName\":\"Andrea\"},\"gender\":\"male\",\"profileUrl\":\"https://www.facebook.com/app_scoped_user_id/10211855995379029/\",\"emails\":[{\"value\":\"cata86@gmail.com\"}],\"provider\":\"facebook\",\"_raw\":\"{\\\"gender\\\":\\\"male\\\",\\\"link\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\\/app_scoped_user_id\\\\/10211855995379029\\\\/\\\",\\\"locale\\\":\\\"it_IT\\\",\\\"last_name\\\":\\\"Catalano\\\",\\\"first_name\\\":\\\"Andrea\\\",\\\"timezone\\\":0,\\\"verified\\\":true,\\\"email\\\":\\\"cata86\\\\u0040gmail.com\\\",\\\"updated_time\\\":\\\"2015-02-03T10:21:17+0000\\\",\\\"id\\\":\\\"10211855995379029\\\"}\",\"_json\":{\"gender\":\"male\",\"link\":\"https://www.facebook.com/app_scoped_user_id/10211855995379029/\",\"locale\":\"it_IT\",\"last_name\":\"Catalano\",\"first_name\":\"Andrea\",\"timezone\":0,\"verified\":true,\"email\":\"cata86@gmail.com\",\"updated_time\":\"2015-02-03T10:21:17+0000\",\"id\":\"10211855995379029\"}},\"credentials\":{\"accessToken\":\"EAAFTNu01VywBAMcEBGQNgue5gh0qw9lry1mZAsDgXTDU7UREY2ftAxxclZBIF8qEfu6xWzfVrx7WZCWTm6lWW5eXEqRZARnAJWjRZAOt7ZBLr3pZAdCQlQkL1k4eGMP1VaUQnZBz1VFfNNI5CKwJkNxUtHZCRfX1VZAAbAZBvuJuwRiorMTLLKBhb0T\"},\"created\":\"2017-01-25T14:40:57.504Z\",\"modified\":\"2017-01-25T15:13:31.094Z\",\"userId\":3,\"id\":1}"
+      "1": "{\"provider\":\"facebook\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"10211855995379029\",\"profile\":{\"id\":\"10211855995379029\",\"name\":{\"familyName\":\"Catalano\",\"givenName\":\"Andrea\"},\"gender\":\"male\",\"profileUrl\":\"https://www.facebook.com/app_scoped_user_id/10211855995379029/\",\"emails\":[{\"value\":\"cata86@gmail.com\"}],\"provider\":\"facebook\",\"_raw\":\"{\\\"gender\\\":\\\"male\\\",\\\"link\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\\/app_scoped_user_id\\\\/10211855995379029\\\\/\\\",\\\"locale\\\":\\\"it_IT\\\",\\\"last_name\\\":\\\"Catalano\\\",\\\"first_name\\\":\\\"Andrea\\\",\\\"timezone\\\":1,\\\"verified\\\":true,\\\"email\\\":\\\"cata86\\\\u0040gmail.com\\\",\\\"updated_time\\\":\\\"2015-02-03T10:21:17+0000\\\",\\\"id\\\":\\\"10211855995379029\\\"}\",\"_json\":{\"gender\":\"male\",\"link\":\"https://www.facebook.com/app_scoped_user_id/10211855995379029/\",\"locale\":\"it_IT\",\"last_name\":\"Catalano\",\"first_name\":\"Andrea\",\"timezone\":1,\"verified\":true,\"email\":\"cata86@gmail.com\",\"updated_time\":\"2015-02-03T10:21:17+0000\",\"id\":\"10211855995379029\"}},\"credentials\":{\"accessToken\":\"EAAFTNu01VywBACCxsbJZAL1rFNqZCk4OVWNQGH577QuBKhaF2G64902kZBd9sgxmroJd38bMUygDh7pbEPl2UuVuwNj92JQKEQrWr5VZCOKNaZA82p2tx95A0tPUZA7VCCvA0HbDwww546wEXr6gmz6yyHlhn9tyfNLZAwl2IhA1QZDZD\"},\"created\":\"2017-01-25T14:40:57.504Z\",\"modified\":\"2017-03-06T17:05:45.781Z\",\"userId\":3,\"id\":1}",
+      "2": "{\"provider\":\"saml\",\"authScheme\":\"saml\",\"externalId\":\"firma_remota\",\"profile\":{\"issuer\":\"https://idp3.ose.cineca.it/idp/shibboleth\",\"sessionIndex\":\"_c0cfc3d02745031b172054d3e521c828\",\"nameID\":\"AAdzZWNyZXQxcAhNTeFluPWDCWQx0lqX1MJnHTihERzDDCQwScC8dL/OVzzovjtd9WtO8yIYsubO0ZXj1Tf65vjQgIfPT/688IF9uEtF0H7Wg57UDHIf0hPB\",\"nameIDFormat\":\"urn:oasis:names:tc:SAML:2.0:nameid-format:transient\",\"nameQualifier\":\"https://idp3.ose.cineca.it/idp/shibboleth\",\"spNameQualifier\":\"idp3up\",\"urn:oid:0.9.2342.19200300.100.1.1\":\"firma_remota\",\"urn:oid:0.9.2342.19200300.100.1.3\":\"firma_remota@example.org\",\"urn:oid:1.3.6.1.4.1.5923.1.1.1.9\":\"member@example.org\",\"urn:oid:1.3.6.1.4.1.5923.1.1.1.6\":\"firma_remota@example.org\",\"mail\":\"firma_remota@example.org\",\"email\":\"firma_remota@example.org\",\"id\":\"firma_remota\"},\"credentials\":{},\"created\":\"2017-03-06T10:58:31.814Z\",\"modified\":\"2017-03-06T17:06:12.867Z\",\"userId\":7,\"id\":2}",
+      "4": "{\"provider\":\"ldap\",\"authScheme\":\"ldap\",\"externalId\":\"FIRMA_REMOTA\",\"profile\":{\"username\":\"FIRMA_REMOTA\",\"id\":\"FIRMA_REMOTA\",\"emails\":[{\"value\":\"univ-int-test@cineca.it\"}]},\"credentials\":{},\"created\":\"2017-03-06T17:06:29.487Z\",\"modified\":\"2017-03-06T17:06:29.487Z\",\"userId\":9,\"id\":4}"
     },
     "ACL": {},
     "RoleMapping": {},
